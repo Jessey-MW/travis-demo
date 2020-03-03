@@ -13,6 +13,5 @@ deploy:
   secret_access_key:
     secure: hp9QljntzJCcjzdwD3xHm9FwKLhc2/MDiotnlUrBPJdc5QJCtkYMGP/K/+hEfbyICUF18fvyqx3ncrufJ6k4dQk1Hl7gJemkd4lheZ1cBYeYlar6pJAVFozpWruBrS1sXxoZE70g7OZaxL61TlBiQAS5CRw/ak7M4gTBQgzbkwHXomUHmaI2CWtFnzzshChoLH20eXmQgZa5xVimjxXADE/eDUA0XzeTJ/NSm4Aq2ii6wPoD5mj9gXdBVUYAHOTXGOguVU/IUPPRSClV9/lb5UHtDSpLy0DSlTCofTDS/M+xiLCm+Gm0Pa6/dhErHetxhB/bzg7MWKuptso1Ui9H9QJhvH0zk/7HzGAYz60wimv/Bj737cCn17AxA+XSxsZruohrFy3LasNHgaAOgu+npomQ96rLTrd5MDGoTbe5iU5QDz16QogbtmY5kg0/nctuc4ikZcQ9HR/cKJC1ujX+w47utlike/JkDOGDt0fCRzlT+3VcErHT2zOF49bRIOb03ipNLmyTLDCb/QELHFSF/RTE1RJk6FyOzzOPbFwnzRQFAsrIn/hkqyyTvu4TldwbumCAkH+y4aDSQ8OiXtsNpjImaDBLw9a6/CQBUefBLw3N3zHheuP9Sf5PMSlwnCj3SZUvD2ZvyxYjhSKy2lTcIH+VQc5bMxITMxXmYs8ytHg=
   bucket: wangbox
-  acl: ''
   on:
     repo: wangtoday/travis-demo
