@@ -10,7 +10,8 @@ script:
 deploy:
   provider: s3
   access_key_id: AKIAYIVQKIF23HMUESN6
-  secret_access_key: $ENCRYPTED_VAR_SPELLED_WRONG
+  secret_access_key:
+    secure: HzC3RhrGT7GNDhHWSu9klh4lu75GGBnxNgQ0bYlBOaFBDTNtyHuslHg+ZU0D94wM9a316mReRYLmK7UHGA/dQOvhW4TMnq98qTczbU6nGA4SsqB3h1qHinu/Cuw0n2XFbQqk+80KNcZiOdIIJyjL+dMZJRC/RfIjs3lcISQroz6ZORf9VaZIU4e7dvAQPFEBfex2f4h6ymkws7TBhz8N5WcFThKuDalWhjJZmpsOv8AZ3fBrJcgu87L8juModT1RJJUfV7P/XU4iJg74HI4LbbxaVvnQbmKfZ4BcjjdfhMCADmCNIwFn/+CFg5q6Vsucdxg0ttV1IdlnMBb5F7+j8GtZ5BFGgNkpO5xmfqsqNCSdsWeWyQ+LE0IyaEgOQ5xfIu6TKNlQfgHN4nEvdyg9s/02dtZajBO6GtWC9/38m5w30HeF+YaDk/1fBjzjJOPMnd+TVw2vMWfhg2dvz/w9QU/AbXmxf2hjFEdSEMSwENVNTD90vmQem36RMOoPHyH3z9ShyVybKzzruU6wfwHdgqBf1Fv4nl7XL2KqtG09snC+GAVgETQisL7jmVnksf4ykVL4MLgKMmKqndWw+9otVWwDAs3ndzt3n/EXS2KJ3Wsi/LLVQKPTkJ3jGYtBARd9yoBNZbqUN/n17/jFZpTzGDkBCzk9rS0C8BetVXnjetI=
   bucket: wangbox
   local-dir: public
   region: ap-east-1
